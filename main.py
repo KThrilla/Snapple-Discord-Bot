@@ -8,7 +8,7 @@ def on_console():
 
   headers = {
       'x-rapidapi-host': "facts-by-api-ninjas.p.rapidapi.com",
-      'x-rapidapi-key': "16b942388fmsh8bacc56acb981a1p14618djsn23feffeb4013"
+      'x-rapidapi-key': "APIKEY"
       }
 
   response = requests.request("GET", url, headers=headers)
@@ -21,7 +21,7 @@ def get_fact():
 
   headers = {
       'x-rapidapi-host': "facts-by-api-ninjas.p.rapidapi.com",
-      'x-rapidapi-key': "16b942388fmsh8bacc56acb981a1p14618djsn23feffeb4013"
+      'x-rapidapi-key': "APIKEY"
       }
 
   response = requests.request("GET", url, headers=headers)
